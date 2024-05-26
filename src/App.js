@@ -5,8 +5,8 @@ import luxury from "./images/icon-luxury.svg";
 function App() {
   return (
     <>
-      <div className="w-2/3 h-96 flex bg-slate-500 mx-auto mt-32">
-        <div className="w-1/3 bg-[#e38525]">
+      <div className="w-2/3 h-96 bg-slate-500 mx-auto mt-32 max-1600:flex max-800:grid grid-cols-auto-fit-200px max-800:h-36">
+        <div className="w-full block bg-[#e38525]">
           <img className="pl-6 pt-8" src={seadan} alt="sedans" />
           <p className="text-2xl text-white pl-6 pt-2">SEDANS</p>
           <p className="text-white text-xs w-3/5 pl-6 pt-2">
@@ -17,7 +17,7 @@ function App() {
             Learn More
           </button>
         </div>
-        <div className="w-1/3 bg-[#016972]">
+        <div className="w-full bg-[#016972] block">
           <img className="pl-6 pt-8" src={suv} alt="suvs" />
           <p className="text-2xl text-white pl-6 pt-2">SUVS</p>
           <p className="text-white text-xs w-3/5 pl-6 pt-2">
@@ -28,7 +28,7 @@ function App() {
             Learn More
           </button>
         </div>
-        <div className="w-1/3 bg-[#00403f]">
+        <div className="w-full block bg-[#00403f]">
           <img className="pl-6 pt-8" src={luxury} alt="luxury" />
           <p className="text-2xl text-white pl-6 pt-2">LUXURY</p>
           <p className="text-white text-xs w-3/5 pl-6 pt-2">
@@ -40,7 +40,7 @@ function App() {
           </button>
         </div>
       </div>
-      <div class="absolute bottom-0 left-1/3 ">
+      <div class="fixed bottom-0 left-1/3 w-2/3 max-800:left-1/4">
         Challenge by
         <a
           className="text-red-600 ml-2 hover:text-blue-600"
