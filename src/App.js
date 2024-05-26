@@ -13,7 +13,7 @@ function App() {
             Choose a sedan for its affordability and excellent fuel economy.
             Ideal for cruising in the city or on your next road trip.
           </p>
-          <button className=" text-[#e38525] bg-white w-28 h-10 ml-8 mt-20 rounded-3xl border-2 border-white hover:text-white hover:bg-[#e38525] ease-in">
+          <button className=" text-[#e38525] bg-white w-28 h-10 ml-8 mt-20 rounded-3xl border-2 border-white hover:text-white hover:bg-[#e38525] ease-in max-800:mt-10">
             Learn More
           </button>
         </div>
@@ -24,7 +24,7 @@ function App() {
             Take an SUV for its spacious interior, power, and versatility.
             Perfect for your next family vacation and off-road adventures.
           </p>
-          <button className=" text-[#016972] bg-white w-28 h-10 ml-8 mt-20 rounded-3xl border-2 border-white hover:text-white hover:bg-[#016972] ease-in">
+          <button className=" text-[#016972] bg-white w-28 h-10 ml-8 mt-20 rounded-3xl border-2 border-white hover:text-white hover:bg-[#016972] ease-in max-800:mt-10">
             Learn More
           </button>
         </div>
@@ -35,7 +35,7 @@ function App() {
             Cruise in the best car brands without the bloated prices. Enjoy the
             enhanced comfort of a luxury rental and arrive in style.
           </p>
-          <button className=" bg-white w-28 h-10 ml-8 mt-20 rounded-3xl border-2 border-white hover:text-white hover:bg-[#016972] ease-in ">
+          <button className=" bg-white w-28 h-10 ml-8 mt-20 rounded-3xl border-2 border-white hover:text-white hover:bg-[#016972] ease-in max-800:mt-10">
             Learn More
           </button>
         </div>
